@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Máquinas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Tabela de Máquinas</h2>
+
+<table id="maquinas">
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Número</th>
+      <th>Equipamento</th>
+      <th>Entrada inicial</th>
+      <th>Saída inicial</th>
+      <th>Entrada final</th>
+      <th>Saída final</th>
+      <th>Entrada</th>
+      <th>Saída</th>
+      <th>Diferença de créditos</th>
+      <th>Resultado financeiro</th>
+      <th class="hidden">Divisor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- As linhas serão preenchidas dinamicamente pelo JavaScript -->
+  </tbody>
+</table>
+
+<input type="file" id="fileInput">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
